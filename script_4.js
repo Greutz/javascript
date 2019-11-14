@@ -19,4 +19,24 @@ const entrepreneurs = [
   { first: 'Peter', last: 'Thiel', year: 1967 }
 ];
 
+// Fonction de comparaison à utiliser avec .sort
+function compare(a, b) {
 
+    // On défini les élements à comparer pour le tri, en uppercase
+    const lastA = a.last.toUpperCase();
+    const lastB = b.last.toUpperCase();
+
+    let comparaison = 0;
+    if (lastA > lastB) {comparaison = 1;}  
+    else if (lastA < lastB) {comparaison = -1;}
+    return comparaison;
+}
+
+let oldPeople = entrepreneurs.filter(item => item.year > 1969 && item.year < 1980);
+let names = entrepreneurs.map(item => item.first + " " + item.last)
+let age = entrepreneurs.map(item => item.first + " " + item.last + ": " + (2019 - item.year) + " ans")
+let sort = entrepreneurs.sort(compare)
+console.log(oldPeople)
+console.log(names)
+console.log(age)
+console.log(sort)
