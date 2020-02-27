@@ -100,7 +100,7 @@ Réalise un script script_5.js qui affichera dans la console les questions suiva
     Trie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé).
 
 
-2.4. Creusons-nous la tête
+## 2.4. Creusons-nous la tête
 
 Si tu as finis les exercices précédents, c'est que tu as le niveau pour un peu plus de réflexion !
 2.4.1. Code la vie
@@ -112,13 +112,14 @@ D'abord quelques explications (on va pas te faire un cours de bio complet). Pour
 
 Notre corps est ensuite capable de lire cet ARN en le découpant par groupes de 3 lettres (appelés "codons"). Dans notre exemple ça donnerait : "UUA-CGC-AGU-AGA". Ensuite chaque codon peut être transformé en un "acide aminé" qui est juste un "morceau de protéine". Mais quelle est la règle qui dit que tel codon doit être remplacé par tel acide aminé ? C'est le fameux code génétique dont voici un extrait ci-dessous :
 
+```
 UCU ou UCC ou UCA ou UCG ou AGU ou AGC => Sérine
 CCU ou CCC ou CCA ou CCG => Proline
 UUA ou UUG => Leucine
 UUU ou UUC => Phénylalanine
 CGU ou CGC ou CGA ou CGG ou AGA ou AGG => Arginine
 UAU ou UAC => Tyrosine
-
+```
 Notre exemple d'ARN "UUA-CGC-AGU-AGA" donnerait donc la protéine suivante : "Leucine-Arginine-Sérine-Arginine"
 
 Le code génétique complet permet de transformer les 64 codons possibles en 20 acides aminés. On va se contenter, sur cet exercice, de prendre juste les 6 acides aminés ci-dessus avec leurs codons correspondants.
