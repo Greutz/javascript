@@ -1,7 +1,10 @@
 # Bonjour
 
 Créé un script script_1.js qui affichera "Bonjour, monde !" dans la console. Voici les lignes que tu dois voir dans ta console :
+```
+"Bonjour monde"
 
+```
 ## Salut
 
 Customise le script script_1.js qui te demandera ton prénom avec un prompt. 
