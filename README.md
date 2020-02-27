@@ -1,13 +1,13 @@
--- Bonjour
+# Bonjour
 
 Créé un script script_1.js qui affichera "Bonjour, monde !" dans la console. Voici les lignes que tu dois voir dans ta console :
 
--- Salut
+## Salut
 
 Customise le script script_1.js qui te demandera ton prénom avec un prompt. 
 Tu stockeras cette entrée dans une variable et tu afficheras : "Bonjour, prénom !" dans la console. 
 
--- 2.2. Opérations & boucles
+### 2.2. Opérations & boucles
 2.2.1 Calculs rapides
 
 Créé un script script_2.js qui définira la fonction factorielle et qui calculera la factorielle du nombre entré par l'utilisateur. Petit exemple rapide : factorielle(5) = 5*4*3*2*1 et factorielle(10) = 10*9*8*7*6*5*4*3*2*1
@@ -34,14 +34,15 @@ Voici ce que devra afficher la console :
  ####
 #####
 
-2.3. Analyses de données
+### 2.3. Analyses de données
 2.3.1. Startup Nation
 
 Tu es en train d'écrire un livre sur les entrepreneurs américains et tu te renseignes sur leurs dates de naissance pour voir si tu ne peux pas identifier un millésime à succès.
 
 Pendant ta recherche tu tombes sur une array contenant des entrepreneurs connus et leurs dates de naissance.
 
-const entrepreneurs = [
+```javascript
+  const entrepreneurs = [
   { first: 'Steve', last: 'Jobs', year: 1955 },
   { first: 'Oprah', last: 'Winfrey', year: 1954 },
   { first: 'Bill', last: 'Gates', year: 1955 },
@@ -60,7 +61,8 @@ const entrepreneurs = [
   { first: 'Travis', last: 'Kalanick', year: 1976 },
   { first: 'Marc', last: 'Andreessen', year: 1971 },
   { first: 'Peter', last: 'Thiel', year: 1967 }
-];
+]; 
+```
 
 Réalise un script script_4.js qui affichera dans la console les questions suivantes et leur réponses :
 
