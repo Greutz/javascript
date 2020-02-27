@@ -26,6 +26,7 @@ Ah la pyramide de Mario du pré-parcours. Que de bons souvenirs. Tu vas écrire 
 
 Voici ce que devra afficher la console :
 
+```
 "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
   // Utilisateur rentre un nombre (par ex 5)
     #
@@ -33,6 +34,7 @@ Voici ce que devra afficher la console :
   ###
  ####
 #####
+```
 
 ### 2.3. Analyses de données
 2.3.1. Startup Nation
